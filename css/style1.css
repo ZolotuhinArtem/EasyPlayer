@@ -1,0 +1,238 @@
+body {
+    margin: 0px auto;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    display: table;
+    background-image: none;
+    background-color: #FFFFFF;
+}
+h1 {
+    font-size: 18pt;
+}
+.ui-btn-box-s {
+    padding: 5px 0;
+    /*background-color: #03A9F4;
+	*/
+    background-color: transparent;
+}
+.ui-btn-box-s span {
+    margin-top: 10px;
+    font-size: 85%;
+    color: #FFFFFF;
+}
+#btn_sort_by_title {
+    width: 20%;
+    padding-top: 5px;
+    height: 20px;
+    display: inline-block;
+    background-color: #0288D1;
+    border-radius: 7px;
+}
+#btn_sort_by_title:active {
+    background-color: #047DBE;
+}
+#btn_sort_by_artist {
+    width: 20%;
+    padding-top: 5px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 7px;
+    background-color: #0288D1;
+}
+#btn_sort_by_artist:active {
+    background-color: #047DBE;
+}
+#btn_sort_by_album {
+    width: 20%;
+    padding-top: 5px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 7px;
+    background-color: #0288D1;
+}
+#btn_sort_by_album:active {
+    background-color: #047DBE;
+}
+.ui-btn-inline {
+    font-size: 60%;
+    color: #FFFFFF;
+}
+#lyrics-search-btn,
+#lyrics-fill {
+    margin-top: 1%;
+    background-color: #03A9F4;
+    color: #fff;
+    text-align: center;
+    border-radius: 0;
+    padding: 8px;
+}
+#lyrics-text {
+    margin: 8px;
+    overflow-y: auto;
+}
+.ui-btn {
+    color: #FFFFFF;
+    display: table-cell;
+    vertical-align: middle;
+}
+#img-cover {
+    padding: 1%;
+    display: table-cell;
+}
+#track_title {
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-size: 23pt;
+}
+#track_artist {
+    text-align: center;
+    width: 100%;
+    color: #222;
+    font-size: 17pt;
+}
+#track_album {
+    text-align: center;
+    width: 100%;
+    color: #222;
+    font-size: 17pt;
+}
+#track-info-box {
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+#btn-next-track {
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    background-color: transparent;
+    background-image: url('../res/img/btn_next.png');
+}
+#btn-next-track:active {
+    background-color: #047DBE;
+}
+#btn-prev-track {
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    background-color: transparent;
+    background-image: url('../res/img/btn_prev.png');
+}
+#btn-prev-track:active {
+    background-color: #047DBE;
+}
+.audio-box{
+	width: 100%;
+	height: 40%;
+	display: table;
+	background-color: #03A9F4;
+}
+#audio {
+    display: inline-block;
+    width: 70%;
+    height: 32px;
+    text-align: center;
+    margin: 0px;
+    
+}
+#btn-prev-track,
+#btn-next-track {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.ui-section-changer {
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    height: 90%;
+    top: 0%;
+    display: table;
+}
+.header {
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    top: 0%;
+    padding: 0%;
+    margin: 0%;
+    display: table;
+    overflow: hidden;
+    color: #FFFFFF;
+    background-color: #03A9F4;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.content {
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    padding: 0%;
+    padding-bottom: 3%;
+    margin: 0%;
+    top: 10%;
+    overflow: auto;
+    background-color: #FFFFFF;
+}
+.footer {
+	display: table;
+    text-align: center;
+    background-color: #03A9F4;
+}
+.tabbar {
+	padding: 1%;
+	height: 100%;
+	width: 100%;
+	display: table;
+}
+.tab {
+	
+	vertical-align:middle;
+	font-size: 1.2em;
+	color: #FFFFFF;
+	text-decoration: none;
+	width: 28%;
+	margin: 0%;
+	height: 90%;
+	display: table-cell;
+    background-color: #14b9ff;
+    border-radius: 4px;
+	padding-top: 2%;
+	text-align: center;
+}
+.tab-left{
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+}
+.tab-right{
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+}
+.tab-middle {
+	border-radius: 0px;
+}
+.tab-active {
+	background-color: #0b94d4;
+}
+#content_track{
+	top: 0%;
+}
+.ui-li-static:ACTIVE {
+    background-color: #a9dcf2;
+}
+#header-lyricspage {
+    top: 0%;
+    margin: 0%;
+    padding: 2%;
+}
+#track-footer {
+	height: 20.63%;
+}
+#track-footer .tabbar{
+	height: 60%;
+	top: 40%;
+}

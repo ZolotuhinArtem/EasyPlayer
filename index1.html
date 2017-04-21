@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<meta name="viewport" content="width=device-width,user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+
+<link rel="stylesheet" href="./lib/tau/mobile/theme/default/tau.css">
+<link rel="stylesheet" type="text/css" href="./css/style1.css" />
+
+
+<script type="text/javascript" src="./lib/jquery.js"></script>
+<script type="text/javascript" src="./lib/tau/mobile/js/tau.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
+</head>
+<body>
+	<!-- /page -->
+	<div id="all" data-role="page">
+		<div id="header-mainPage" data-role="header" class="header"
+			data-position="fixed">
+			<div class="ui-btn-box-s">
+				<span>Sort by:</span>
+				<div class="ui-btn-inline" id="btn_sort_by_title">TITLE</div>
+				<div class="ui-btn-inline" id="btn_sort_by_artist">ARTIST</div>
+				<div class="ui-btn-inline" id="btn_sort_by_album">ALBUM</div>
+			</div>
+		</div>
+		<div id="content_main" data-role="content" class="content">
+			<ul class="ui-listview" data-role="listview" data-position="fixed"
+				id="track_list">
+				<li class="ui-li-static">Tracks not found!</li>
+			</ul>
+		</div>
+		<div data-role="footer" class="footer" data-position="fixed">
+			<div class="tabbar">
+				<a href="#all" class="tab tab-left tab-active">All</a>
+				<a href="#track_detail" class="tab tab-middle">Track</a>
+				<a href="#lyric" class="tab tab-right">Lyric</a>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="track_detail" data-role="page">
+		<div data-role="content" class="content" id="content_track">
+			<img id="img-cover" alt="track" src="/res/img/track_template.png"
+				width="98%" />
+			<div id="track-info-box">
+				<div id="track_title">...</div>
+				<div id="track_album"></div>
+				<div id="track_artist"></div>
+			</div>
+			
+		</div>
+		<!-- /content -->
+		<div data-role="footer" class="footer" id="track-footer">
+			<div class="audio-box">
+				<div id="btn-prev-track"></div>
+				<audio src="" id="audio" controls="controls"></audio>
+				<div id="btn-next-track"></div>
+			</div>
+			<div class="tabbar">
+				<a href="#all" class="tab tab-left">All</a>
+				<a href="#track_detail" class="tab tab-middle tab-active">Track</a>
+				<a href="#lyric" class="tab tab-right">Lyric</a>
+			</div>
+		</div>
+		
+	</div>
+
+	<div id="lyric" data-role="page" class="ui-page">
+		<div data-role="header" class="header" id="header-lyricsPage" data-position="fixed">
+			<h1>Lyric</h1>
+		</div>
+		<div data-role="content" class="content" id="content_lyric">
+			<input type="text" id="lyrics-artist" placeholder="Artist name" /> <input
+				type="text" id="lyrics-track" placeholder="Track name" />
+			<div id="lyrics-fill">Fill fields from current track</div>
+			<div id="lyrics-search-btn">Search</div>
+			<div id="lyrics-text"></div>
+		</div>
+		<div data-role="footer" class="footer" data-position="fixed">
+			<div class="tabbar">
+				<a href="#all" class="tab tab-left">All</a>
+				<a href="#track_detail" class="tab tab-middle">Track</a>
+				<a href="#lyric" class="tab tab-right tab-active">Lyric</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
