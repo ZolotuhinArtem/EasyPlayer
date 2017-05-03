@@ -8,7 +8,7 @@
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>sAIqAz1g9vuBdQJXQqX3ls7DDyU7k/lrmoO1PoYX2O4=</DigestValue>
+<DigestValue>uLhFF5wiviVTy1qW4v3qIqCcBNQvOIMBVNbaO1DS+xo=</DigestValue>
 </Reference>
 <Reference URI="css%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -839,9 +839,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-FU83uiN4to1Y/Yn6+W2+BZfXc4NJykkPmikfUUqv2f8VJjRb6tFWSJdR3+SxkcrVtiHkn/cQMWtq
-Bmx4E+hpLi+xCW92UXA/R0lKAVBFs5Yg3yS9bi97eI6Ag606pX6rYlEDRGAyE+SjRrqiT0eS4WYk
-Pgd8W8sbRiNlwDdIQec=
+HoXNd1RYr/4usqxJ+2NPeqlO5Rq3BloM1SOaqXeSDbleaM2eTc4qAt6g6+spqlQHTVK5sQiPQrp3
+QXNVJ0uzXMkDk0wJr8uH072+H1Y5o9WrlxiTKMMaA4zkrgaQfSh8OTmZ4DMK3sl3jr0vTOoCK00J
+G0d5fVDt+zoIyCNvBQU=
 </SignatureValue>
 <KeyInfo>
 <X509Data>
