@@ -1,6 +1,11 @@
 #delete
+res/wgt/css/style.css
+res/wgt/index.html
+res/wgt/js/xml2json.js
 #add
 #modify
 res/wgt/author-signature.xml
 res/wgt/signature1.xml
-res/wgt/css/style1.css
+res/wgt/index1.html
+res/wgt/js/app.albumcover.js
+res/wgt/js/app.trackUtils.js

@@ -1,9 +1,6 @@
 ;(function(){
 	"use strict";
-	App.TrackUtils = function TrackUtils(){
-		
-	};
-	
+	App.TrackUtils = function TrackUtils(){};
 	App.TrackUtils.prototype = {
 		sortByTitle: function sortByTitle(trackArray) {
 			trackArray.sort(this.compareTrackByTitle);

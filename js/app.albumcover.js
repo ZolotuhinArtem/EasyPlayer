@@ -6,10 +6,10 @@
     App.AlbumCover.prototype = {
         getCover: function getCover(artistName, trackName, onSuccess, onError) {
         	var logtag = "App.AlbumCover: getCover: ";
-        	artistName = artistName.toLowerCase();
-        	trackName = trackName.toLowerCase();
         	console.log(logtag + "getted " + artistName + " - " + trackName);
-        	if (artistName && trackName) {
+        	if (artistName && trackName) {				
+				artistName = artistName.toLowerCase();
+				trackName = trackName.toLowerCase();
         		$.ajax({
                     url: "https://api.spotify.com/v1/search?q=" + artistName + ":" + trackName + "&type=track",
 

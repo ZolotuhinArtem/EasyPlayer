@@ -26,12 +26,20 @@
 		this.trackAlbum = document.getElementById("track_album");
 		this.trackArtist = document.getElementById("track_artist");
 		this.audioElement = document.getElementById("audio");
+		
+		this.buttonsPage = document.getElementsByTagName("btn-page");
 	};
 	
 	App.Ui.prototype = {
 		logtag: "App.Ui",
 		
 		onClickTrack: function onClickTrack(index){},
+		
+		setButtonsPageClisk: function(onClick){
+			for (var i = 0; i < this.buttonsPage.length; i++){
+				this.buttonsPage.item(i).addEventListener("click", onClick, false);
+			}
+		},
 		
 		getAudioElement: function(){
 			return this.audioElement;

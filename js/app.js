@@ -95,7 +95,6 @@ var App = null;
 	   				self.ui.setTrackLyrics(self.currentTrack.title);
 	   			}
 	   		});
-	   		
 	   		this.ui.setOnBtnLyricsSearchClick(function(){
 	   			self.ui.setTextLyrics("Loading...");
 	   			function onSuccess(data){
@@ -126,6 +125,7 @@ var App = null;
 	   		}
 	   		console.log("search tracks");
 			this.model.searchTracks(onSearchTracks, onErrorSearchTracks);
+			
 			
 			
 		},
